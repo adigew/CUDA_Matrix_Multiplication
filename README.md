@@ -2,7 +2,7 @@
 Applied Parallel Programming on GPU
 Parallelization via CUDA in matrix multiplication offers a powerful means to expedite 
 computation-intensive tasks. In the problem domain of matrix multiplication, represented by two 
-matrices 𝐴𝐴 and 𝐵𝐵 of sizes 𝑀𝑀×𝑁𝑁 and 𝑁𝑁×𝑃𝑃 respectively, the conventional sequential approach 
+matrices 𝐴 and 𝐵 of sizes 𝑀×𝑁 and 𝑁×𝑃 respectively, the conventional sequential approach 
 entails computing each element Cij individually. However, leveraging CUDA parallelization, 
 each thread computes one element of the output matrix C. By organizing threads into blocks and 
 grids, and distributing the workload across multiple threads, CUDA enables concurrent execution 
